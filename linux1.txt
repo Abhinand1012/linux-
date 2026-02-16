@@ -1,0 +1,33 @@
+mcetcse@mcetcse-Vostro-260s:~/newdir$ cat > file2.txt
+apple
+orange
+mango
+mcetcse@mcetcse-Vostro-260s:~/newdir$ cat > file3.txt file4.txt
+cat: file4.txt: No such file or directory
+mcetcse@mcetcse-Vostro-260s:~/newdir$ cat > file3.txt
+banana
+grape
+tomato
+mcetcse@mcetcse-Vostro-260s:~/newdir$ cat file2.txt
+apple
+orange
+mango
+mcetcse@mcetcse-Vostro-260s:~/newdir$ cat file3.txt
+banana
+grape
+tomato
+mcetcse@mcetcse-Vostro-260s:~/newdir$ cat >>file3.txt
+papaya
+guava      
+mcetcse@mcetcse-Vostro-260s:~/newdir$ cat file3.txt
+banana
+grape
+tomato
+papaya
+guava
+mcetcse@mcetcse-Vostro-260s:~/newdir$ cat -n file3.txt
+     1	banana
+     2	grape
+     3	tomato
+     4	papaya
+     5	guava
