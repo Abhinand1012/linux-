@@ -1,0 +1,220 @@
+mcetcse@mcetcse-Vostro-260s:~/ABHI$ sudo apt update
+[sudo] password for mcetcse: 
+Get:1 https://dl.google.com/linux/chrome/deb stable InRelease [1,825 B]
+Hit:2 http://in.archive.ubuntu.com/ubuntu focal InRelease                                              
+Get:3 http://security.ubuntu.com/ubuntu focal-security InRelease [128 kB]
+Hit:4 https://download.docker.com/linux/ubuntu focal InRelease                
+Get:5 https://dl.google.com/linux/chrome/deb stable/main amd64 Packages [1,210 B]
+Get:6 http://in.archive.ubuntu.com/ubuntu focal-updates InRelease [128 kB]                 
+Get:7 http://security.ubuntu.com/ubuntu focal-security/main amd64 DEP-11 Metadata [74.7 kB]
+Get:8 http://security.ubuntu.com/ubuntu focal-security/restricted amd64 DEP-11 Metadata [212 B]
+Get:9 http://security.ubuntu.com/ubuntu focal-security/universe amd64 DEP-11 Metadata [160 kB]
+Get:10 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 DEP-11 Metadata [940 B]                                             
+Get:11 http://in.archive.ubuntu.com/ubuntu focal-backports InRelease [128 kB]                                                                
+Get:12 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 DEP-11 Metadata [276 kB]                                                 
+Get:13 http://in.archive.ubuntu.com/ubuntu focal-updates/restricted amd64 DEP-11 Metadata [212 B]                                            
+Get:14 http://in.archive.ubuntu.com/ubuntu focal-updates/universe amd64 DEP-11 Metadata [446 kB]                                             
+Get:15 http://in.archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 DEP-11 Metadata [940 B]                                            
+Get:16 http://in.archive.ubuntu.com/ubuntu focal-backports/main amd64 DEP-11 Metadata [7,980 B]                                              
+Get:17 http://in.archive.ubuntu.com/ubuntu focal-backports/restricted amd64 DEP-11 Metadata [216 B]                                          
+Get:18 http://in.archive.ubuntu.com/ubuntu focal-backports/universe amd64 DEP-11 Metadata [30.5 kB]                                          
+Get:19 http://in.archive.ubuntu.com/ubuntu focal-backports/multiverse amd64 DEP-11 Metadata [212 B]                                          
+Fetched 1,384 kB in 14s (99.6 kB/s)                                                                                                          
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+18 packages can be upgraded. Run 'apt list --upgradable' to see them.
+mcetcse@mcetcse-Vostro-260s:~/ABHI$ sudo apt upgrade
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+Calculating upgrade... Done
+The following security updates require Ubuntu Pro with 'esm-infra' enabled:
+  fdisk python3.8-venv libsoup-gnome2.4-1 libdjvulibre-text php7.4-cli
+  linux-headers-generic-hwe-20.04 libopenjp2-7 bind9-dnsutils poppler-utils
+  gstreamer1.0-alsa libcups2 intel-microcode uuid-runtime libfdisk1
+  gnupg-utils linux-libc-dev xserver-common vim-common libcurl4
+  libpython3.8-dev gir1.2-soup-2.4 gpg-wks-client
+  gstreamer1.0-plugins-base-apps gcc-9-base openssl libblockdev-swap2
+  xserver-xorg-core gir1.2-gdkpixbuf-2.0 gnupg-l10n libgdk-pixbuf2.0-0
+  libc6-dbg libssh-4 libc6-dev libpython3.8-minimal libctf-nobfd0 libwbclient0
+  git-man libsystemd0 php7.4-json mysql-client-8.0 gcc-10-base libexpat1-dev
+  libavahi-glib1 gstreamer1.0-plugins-good libgs9 cpp-9 python2.7-minimal
+  libmount1 snapd mysql-server libsqlite3-0 python3-protobuf mysql-server-8.0
+  python3-urllib3 binutils libsnmp-base bind9-host php7.4 libitm1
+  libavahi-common-data libavahi-common3 sudo python2.7 python3-pip libc6
+  gpg-wks-server util-linux libpython3.8 python3.8 python-apt-common
+  xserver-xorg-legacy git libwinpr2-2 gpg libblockdev-crypto2 udev locales
+  gstreamer1.0-plugins-base cups-server-common libasan5 libblockdev-loop2
+  libquadmath0 libklibc libblockdev-fs2 cups-common
+  linux-image-generic-hwe-20.04 libblockdev-part2 apache2-data
+  python3-requests libexpat1 libgstreamer-plugins-good1.0-0 libudev1
+  libsoup2.4-1 gstreamer1.0-pulseaudio libstdc++-9-dev systemd-timesyncd
+  dirmngr php7.4-opcache mount libavahi-ui-gtk3-0 linux-generic-hwe-20.04
+  samba-libs binutils-x86-64-linux-gnu xserver-xephyr gstreamer1.0-gtk3
+  libblkid1 cups-filters libtiff5 udisks2 libsnmp35 libtsan0 libfreerdp2-2
+  libc-bin libubsan1 cups-ppdc g++-9 libcaca0 mysql-client-core-8.0
+  avahi-daemon libcupsfilters1 python3.8-minimal libgstreamer-gl1.0-0
+  systemd-sysv libblockdev2 libuuid1 php7.4-mysql libavahi-core7 gcc-9
+  gir1.2-udisks-2.0 libglib2.0-bin gpgv libpam-systemd
+  libgstreamer-plugins-base1.0-0 xwayland php7.4-readline gstreamer1.0-x
+  ghostscript liblsan0 systemd libgomp1 libsmartcols1 rfkill
+  libgdk-pixbuf2.0-bin libfontembed1 libssh-gcrypt-4
+  gir1.2-gst-plugins-base-1.0 xxd libblockdev-utils2 ghostscript-x
+  libgdk-pixbuf2.0-common libsmbclient openssh-client libmysqlclient21
+  libnss-systemd libgs9-common avahi-autoipd bsdutils binutils-common
+  libsynctex2 libblockdev-part-err2 libgcc-s1 libglib2.0-data
+  cups-filters-core-drivers libdjvulibre21 libc-dev-bin libxml2 libbinutils
+  libpython2.7-minimal libpython3.8-stdlib libgnutls30 libnss3 apache2-bin
+  libudisks2-0 vim-tiny python3.8-dev php7.4-common cups-bsd avahi-utils
+  cups-core-drivers libatomic1 libpoppler-cpp0v5 cups-daemon libssl1.1
+  libtasn1-6 gnupg libcc1-0 libprotobuf17 libcupsimage2 libpython2.7-stdlib
+  libexiv2-27 libpoppler-glib8 apache2 libstdc++6 libpoppler97
+  libavahi-client3 cups apache2-utils curl cups-client cups-ipp-utils
+  klibc-utils gpg-agent libapache2-mod-php7.4 python-pip-whl
+  libfreerdp-client2-2 libglib2.0-0 bind9-libs libcurl3-gnutls gpgconf
+  gstreamer1.0-gl python3-apt libctf0 cups-browsed libgcc-9-dev libxslt1.1
+  gpgsm mysql-server-core-8.0 libkpathsea6 libpng16-16
+Learn more about Ubuntu Pro at https://ubuntu.com/pro
+The following packages will be upgraded:
+  apt apt-transport-https apt-utils gnome-shell gnome-shell-common google-chrome-stable initramfs-tools initramfs-tools-bin
+  initramfs-tools-core libapt-pkg6.0 libcryptsetup12 ubuntu-advantage-tools ubuntu-desktop ubuntu-desktop-minimal ubuntu-minimal
+  ubuntu-pro-client ubuntu-pro-client-l10n ubuntu-standard
+18 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 132 MB of archives.
+After this operation, 37.0 MB of additional disk space will be used.
+Do you want to continue? [Y/n] 
+Get:1 https://dl.google.com/linux/chrome/deb stable/main amd64 google-chrome-stable amd64 146.0.7680.164-1 [128 MB]
+Get:2 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 libapt-pkg6.0 amd64 2.0.11 [843 kB]
+Get:3 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 apt amd64 2.0.11 [1,280 kB]                                               
+Get:4 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 apt-utils amd64 2.0.11 [213 kB]                                           
+Get:5 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 libcryptsetup12 amd64 2:2.2.2-3ubuntu2.5 [166 kB]                         
+Get:6 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 ubuntu-pro-client-l10n amd64 37.1ubuntu0~20.04 [18.8 kB]                  
+Get:7 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 ubuntu-pro-client amd64 37.1ubuntu0~20.04 [237 kB]                        
+Get:8 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 ubuntu-advantage-tools all 37.1ubuntu0~20.04 [11.0 kB]                    
+Get:9 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 ubuntu-minimal amd64 1.450.3 [3,116 B]                                    
+Get:10 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 ubuntu-standard amd64 1.450.3 [3,156 B]                                  
+Get:11 http://in.archive.ubuntu.com/ubuntu focal-updates/universe amd64 apt-transport-https all 2.0.11 [1,704 B]                             
+Get:12 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 gnome-shell amd64 3.36.9-0ubuntu0.20.04.5 [782 kB]                       
+Get:13 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 gnome-shell-common all 3.36.9-0ubuntu0.20.04.5 [151 kB]                  
+Get:14 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 initramfs-tools all 0.136ubuntu6.8 [9,212 B]                             
+Get:15 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 initramfs-tools-core all 0.136ubuntu6.8 [47.8 kB]                        
+Get:16 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 initramfs-tools-bin amd64 0.136ubuntu6.8 [11.0 kB]                       
+Get:17 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 ubuntu-desktop-minimal amd64 1.450.3 [4,000 B]                           
+Get:18 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 ubuntu-desktop amd64 1.450.3 [2,848 B]                                   
+Fetched 132 MB in 15s (8,799 kB/s)                                                                                                           
+Preconfiguring packages ...
+(Reading database ... 190753 files and directories currently installed.)
+Preparing to unpack .../libapt-pkg6.0_2.0.11_amd64.deb ...
+Unpacking libapt-pkg6.0:amd64 (2.0.11) over (2.0.10) ...
+Setting up libapt-pkg6.0:amd64 (2.0.11) ...
+(Reading database ... 190753 files and directories currently installed.)
+Preparing to unpack .../archives/apt_2.0.11_amd64.deb ...
+Unpacking apt (2.0.11) over (2.0.10) ...
+Setting up apt (2.0.11) ...
+(Reading database ... 190753 files and directories currently installed.)
+Preparing to unpack .../00-apt-utils_2.0.11_amd64.deb ...
+Unpacking apt-utils (2.0.11) over (2.0.10) ...
+Preparing to unpack .../01-google-chrome-stable_146.0.7680.164-1_amd64.deb ...
+Unpacking google-chrome-stable (146.0.7680.164-1) over (135.0.7049.114-1) ...
+Preparing to unpack .../02-libcryptsetup12_2%3a2.2.2-3ubuntu2.5_amd64.deb ...
+Unpacking libcryptsetup12:amd64 (2:2.2.2-3ubuntu2.5) over (2:2.2.2-3ubuntu2.4) ...
+Preparing to unpack .../03-ubuntu-pro-client-l10n_37.1ubuntu0~20.04_amd64.deb ...
+Unpacking ubuntu-pro-client-l10n (37.1ubuntu0~20.04) over (34~20.04) ...
+Preparing to unpack .../04-ubuntu-pro-client_37.1ubuntu0~20.04_amd64.deb ...
+Unpacking ubuntu-pro-client (37.1ubuntu0~20.04) over (34~20.04) ...
+Preparing to unpack .../05-ubuntu-advantage-tools_37.1ubuntu0~20.04_all.deb ...
+Unpacking ubuntu-advantage-tools (37.1ubuntu0~20.04) over (34~20.04) ...
+Preparing to unpack .../06-ubuntu-minimal_1.450.3_amd64.deb ...
+Unpacking ubuntu-minimal (1.450.3) over (1.450.2) ...
+Preparing to unpack .../07-ubuntu-standard_1.450.3_amd64.deb ...
+Unpacking ubuntu-standard (1.450.3) over (1.450.2) ...
+Preparing to unpack .../08-apt-transport-https_2.0.11_all.deb ...
+Unpacking apt-transport-https (2.0.11) over (2.0.10) ...
+Preparing to unpack .../09-gnome-shell_3.36.9-0ubuntu0.20.04.5_amd64.deb ...
+Unpacking gnome-shell (3.36.9-0ubuntu0.20.04.5) over (3.36.9-0ubuntu0.20.04.4) ...
+Preparing to unpack .../10-gnome-shell-common_3.36.9-0ubuntu0.20.04.5_all.deb ...
+Unpacking gnome-shell-common (3.36.9-0ubuntu0.20.04.5) over (3.36.9-0ubuntu0.20.04.4) ...
+Preparing to unpack .../11-initramfs-tools_0.136ubuntu6.8_all.deb ...
+Unpacking initramfs-tools (0.136ubuntu6.8) over (0.136ubuntu6.7) ...
+Preparing to unpack .../12-initramfs-tools-core_0.136ubuntu6.8_all.deb ...
+Unpacking initramfs-tools-core (0.136ubuntu6.8) over (0.136ubuntu6.7) ...
+Preparing to unpack .../13-initramfs-tools-bin_0.136ubuntu6.8_amd64.deb ...
+Unpacking initramfs-tools-bin (0.136ubuntu6.8) over (0.136ubuntu6.7) ...
+Preparing to unpack .../14-ubuntu-desktop-minimal_1.450.3_amd64.deb ...
+Unpacking ubuntu-desktop-minimal (1.450.3) over (1.450.2) ...
+Preparing to unpack .../15-ubuntu-desktop_1.450.3_amd64.deb ...
+Unpacking ubuntu-desktop (1.450.3) over (1.450.2) ...
+Setting up google-chrome-stable (146.0.7680.164-1) ...
+Setting up apt-utils (2.0.11) ...
+Setting up apt-transport-https (2.0.11) ...
+Setting up gnome-shell-common (3.36.9-0ubuntu0.20.04.5) ...
+Setting up ubuntu-standard (1.450.3) ...
+Setting up libcryptsetup12:amd64 (2:2.2.2-3ubuntu2.5) ...
+Setting up ubuntu-pro-client (37.1ubuntu0~20.04) ...
+Installing new version of config file /etc/apparmor.d/ubuntu_pro_apt_news ...
+Installing new version of config file /etc/apparmor.d/ubuntu_pro_esm_cache ...
+Installing new version of config file /etc/apt/apt.conf.d/20apt-esm-hook.conf ...
+Setting up initramfs-tools-bin (0.136ubuntu6.8) ...
+Setting up ubuntu-pro-client-l10n (37.1ubuntu0~20.04) ...
+Setting up ubuntu-advantage-tools (37.1ubuntu0~20.04) ...
+Setting up initramfs-tools-core (0.136ubuntu6.8) ...
+Setting up initramfs-tools (0.136ubuntu6.8) ...
+update-initramfs: deferring update (trigger activated)
+Setting up ubuntu-minimal (1.450.3) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.18) ...
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for desktop-file-utils (0.24-1ubuntu3) ...
+Processing triggers for mime-support (3.64ubuntu1) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for gnome-menus (3.36.0-1ubuntu1) ...
+Processing triggers for libglib2.0-0:amd64 (2.64.6-1~ubuntu20.04.9) ...
+Setting up gnome-shell (3.36.9-0ubuntu0.20.04.5) ...
+Setting up ubuntu-desktop-minimal (1.450.3) ...
+Setting up ubuntu-desktop (1.450.3) ...
+Processing triggers for initramfs-tools (0.136ubuntu6.8) ...
+update-initramfs: Generating /boot/initrd.img-5.15.0-139-generic
+mcetcse@mcetcse-Vostro-260s:~/ABHI$ sudo apt install ufw
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+ufw is already the newest version (0.36-6ubuntu1.1).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+mcetcse@mcetcse-Vostro-260s:~/ABHI$ sudo ufw enable
+Firewall is active and enabled on system startup
+mcetcse@mcetcse-Vostro-260s:~/ABHI$ sudo ufw disable
+Firewall stopped and disabled on system startup
+mcetcse@mcetcse-Vostro-260s:~/ABHI$ sudo ufw enable
+Firewall is active and enabled on system startup
+mcetcse@mcetcse-Vostro-260s:~/ABHI$ sudo ufw status
+Status: active
+
+To                         Action      From
+--                         ------      ----
+80/tcp                     ALLOW       Anywhere                  
+80                         ALLOW       Anywhere                  
+2000:3000/tcp              ALLOW       Anywhere                  
+22                         ALLOW       Anywhere                  
+20                         ALLOW       Anywhere                  
+33                         ALLOW       Anywhere                  
+3000:4000/tcp              ALLOW       Anywhere                  
+80/tcp (v6)                ALLOW       Anywhere (v6)             
+80 (v6)                    ALLOW       Anywhere (v6)             
+2000:3000/tcp (v6)         ALLOW       Anywhere (v6)             
+22 (v6)                    ALLOW       Anywhere (v6)             
+20 (v6)                    ALLOW       Anywhere (v6)             
+33 (v6)                    ALLOW       Anywhere (v6)             
+3000:4000/tcp (v6)         ALLOW       Anywhere (v6)             
+
+mcetcse@mcetcse-Vostro-260s:~/ABHI$ sudo ufw default allow outgoing
+Default outgoing policy changed to 'allow'
+(be sure to update your rules accordingly)
+mcetcse@mcetcse-Vostro-260s:~/ABHI$ sudo ufw allow http
+Skipping adding existing rule
+Skipping adding existing rule (v6)
+mcetcse@mcetcse-Vostro-260s:~/ABHI$ sudo ufw allow 80
+Skipping adding existing rule
+Skipping adding existing rule (v6)
+mcetcse@mcetcse-Vostro-260s:~/ABHI$ sudo ufw allow 2000:3000/tcp
+Skipping adding existing rule
+Skipping adding existing rule (v6)
